@@ -1,0 +1,65 @@
+.container {
+    padding: 24px;
+    background: #f9f9f9;
+    font-family: sans-serif;
+  }
+  
+  .header {
+    background-color: #d5f736;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+  }
+  
+  .headerButtons {
+    display: flex;
+    gap: 12px;
+  }
+  
+  .green {
+    background-color: #09cc66;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .blue {
+    background-color: #2284f5;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .content {
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+  }
+  
+  .reportCard {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    width: 60%;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .chat {
+    background-color: #eee;
+    border-radius: 8px;
+    padding: 20px;
+    width: 35%;
+  }
+  
+  .generateButtonArea {
+    margin-top: 24px;
+    text-align: left;
+  }
+  
